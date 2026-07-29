@@ -1,0 +1,13 @@
+import HautevilleHouse.DiscontinuousFunctionalDifferentialEquationsFoundationCanonicalLaneLean.JumpCondition
+
+namespace HautevilleHouse
+namespace DiscontinuousFunctionalDifferentialEquationsFoundationCanonicalLaneLean
+
+structure AdmittedObject where
+  jump : JumpConditionPackage
+  solutionSpace : Type
+  uniqueSolutionExists : Prop
+  conclusion : uniqueSolutionExists
+
+end DiscontinuousFunctionalDifferentialEquationsFoundationCanonicalLaneLean
+end HautevilleHouse
